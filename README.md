@@ -12,12 +12,12 @@ El proyecto consiste en la creacion de un programa el cual permita obtener la me
 ### Diagrama de Clases
 <img src="imagen\imagen.png">  
  
- En el diagrama de clases vemos la clase Lector, en esta estan los metodos Lector_archivos, contadorLineas y el main.  
+ En el diagrama de clases vemos la clase Lector, en esta estan los metodos Lector_archivos, agregarALista, media, desviacion y el main.  
 
-ContadorLineas Cuenta todas las lineas del archivo y devuelve este numero, Lector_archivos es el metodo que recorre todos los archivos de un folder y suma lo que devuelve contadorLineas y main es el metodo que invoca a lector_archivos.
+agregarALista agrega a una linked list las lineas del archivo y devuelve este linked list, Lector_archivos es el metodo que lee el archivo, este invoca a agregarALista y la linkedlist de este, media calcula la media de la linked list dada, y desviacion calcula la desviacion de la linked list y finalmente main es el metodo que invoca a lector_archivos.
 
 ### Tests
-Se realizan test por los 2 metodos principales, en el de contador lineas se testean ambos metodos de conteo de lineas.
+Se realizan test por los 4 metodos principales, media, desviacion, lector_archivos y agregarALista.
 <img src="imagen\tests.png">  
 
 ### Documentacion
